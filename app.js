@@ -9,7 +9,7 @@ import {VegaTree} from "./libraries/vegatree.js"
 //
 const csvFile = "data/tested.csv"
 const trainingLabel = "Survived"
-const ignored = ["PassengerId", "Survived", "Name", "Parch", "Fare", "Embarked", "Sex", "Ticket"];
+const ignored = ["PassengerId", "Survived", "Name", "Parch", "Fare", "Embarked", "Ticket"];
 
 let labelOne
 let labelTwo
